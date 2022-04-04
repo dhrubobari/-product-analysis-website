@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CustomerReview from '../CustomerReview/CustomerReview';
 import hotel from '../image/hotel.jpg';
+import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
             <h3 className='heading-2'>One of the Best 5 Star Hotel</h3>
             <h4 className='heading-3'>Customer Reviews</h4>
             </div>
-            <div className="more-hotels">
+            <div className="review-of-customers">
                 {
                     reviews.map(review => <CustomerReview 
                     key={review.id}

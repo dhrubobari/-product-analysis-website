@@ -1,36 +1,42 @@
 [
     {
         "id": 1,
+        "name": "Neil Clayton",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://www.listchallenges.com/f/items/46aa4f76-bd8d-4f66-bd94-ce5c5efab1ff.jpg",
         "rating": 4.5
     },
     {
         "id": 2,
+        "name": "Matt Field",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://jv.ag/assets/images/bio-photo.jpg",
         "rating": 4.5
     },
     {
         "id": 3,
+        "name": "Tanya Correia",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhEB5TN6Ku-wVjzZa_CiltogXAj4q_Cj30A&usqp=CAU",
         "rating": 4.5
     },
     {
         "id": 4,
+        "name": "Baden Hall",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGh6vrhHP-CwQKV_j2g-Q22tnPKlL8i3l-_KeqQuth3nKJsdhI9wyhpcw6ELW6im0CCc&usqp=CAU",
         "rating": 4.5
     },
     {
         "id": 5,
+        "name": "Steven Keates",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://www.commonwealthfund.org/sites/default/files/styles/bio_photo_thumb_160x160_/public/people/Justin_Giovannelli.jpg?itok=3g3-QC1m",
         "rating": 4.5
     },
     {
         "id": 6,
+        "name": "Anjali Gupta",
         "opinion": "It was an amazing experience, so beautiful and quiet.",
         "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         "rating": 4.5
