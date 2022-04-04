@@ -1,0 +1,14 @@
+.customer-review {
+    border: 1px solid silver;
+    padding: 25px;
+    margin: 8px;
+    border-radius: 7px;
+}
+
+.customer-review img {
+    width: 90%;
+    height: 130px;
+    margin: 5px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
