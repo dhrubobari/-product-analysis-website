@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CustomerReview from '../CustomerReview/CustomerReview';
 import hotel from '../image/hotel.jpg';
-import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 const Home = () => {
