@@ -5,8 +5,10 @@ import './Home.css'
 const Home = () => {
     return (
         <div className='home-container'>
-            <h1>Hotel Review Website</h1>
+            <h1 className='heading-1'>WELCOME TO PARADISE</h1>
             <img src={hotel} alt="" />
+            <h3 className='heading-2'>One of the Best 5 Star Hotel</h3>
+            <p></p>
         </div>
     );
 };
