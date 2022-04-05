@@ -1,3 +1,11 @@
+# My project name: Paradise Hotel Review
+# Live: https://spontaneous-ganache-5dc678.netlify.app 
+
+# • I have made a hotel's review and analytic website.
+# • In the home page I added a navbar, hotel image, customer reviews, button to see the all reviews.
+# • In review page I added all customers data.
+# • In Dashboard I created a chart about the hotel's expenditures.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
