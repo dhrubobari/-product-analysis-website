@@ -1,0 +1,9 @@
+.chart-div {
+    display: inline-block;
+}
+
+.chart-title {
+    color: hotpink;
+    font-size: 22px;
+    margin-top: 80px;
+}

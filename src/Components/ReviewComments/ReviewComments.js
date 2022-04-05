@@ -7,7 +7,7 @@ const ReviewComments = (props) => {
         <div className='comments'>
             <p style={{fontSize: '22px'}}>{opinion}</p>
             <h4>Review by: {name}</h4>
-            <p>rating: {rating}</p>
+            <p>customer rating: {rating}</p>
         </div>
     );
 };
