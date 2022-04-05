@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import CustomerReview from '../CustomerReview/CustomerReview';
 import hotel from '../image/hotel.jpg';
 import './Home.css'
@@ -12,6 +13,7 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setReview(data))
     }, []);
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -29,6 +31,7 @@ const Home = () => {
                     ></CustomerReview>)
                 }
             </div>
+            <button onClick={() => navigate('/review')} className='goto-button'>See All Reviews</button>
         </div>
     );
 };
