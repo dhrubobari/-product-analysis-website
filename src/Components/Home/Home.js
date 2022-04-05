@@ -21,15 +21,18 @@ const Home = () => {
             <h1 className='heading-1'>WELCOME TO PARADISE</h1>
             <img src={hotel} alt="" />
             <h3 className='heading-2'>One of the Best 5 Star Hotel</h3>
-            <h4 className='heading-3'>Customer Reviews</h4>
+            <p>Just fresh quite and peaceful</p>
+            <h4 className='heading-3'>Best Customer Reviews</h4>
             </div>
             <div className="review-of-customers">
                 {
-                    reviews.map(review => <CustomerReview 
+                    reviews.slice(0, 3).map(review => <CustomerReview 
                     key={review.id}
                     review={review}
                     ></CustomerReview>)
                 }
+            </div>
+            <div>
             </div>
             <button onClick={() => navigate('/review')} className='goto-button'>See All Reviews</button>
         </div>
